@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+}
+#display{
+    background: #594646;
+    font-size: 48px;
+    padding: 10px;
+    text-align: right;
+    color: #fff;
+}
+#btn span{
+    width: 25%;
+    height: 60px;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    font-size: 32px;
+    background: #34d8e1;
+    font-weight: bold;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: all .3s ease;
+    color: #fff;
+}
+#btn span:hover{
+    background: #29979d;
+}
+#btn .btn-number{
+    background: #d2de4a;
+}
